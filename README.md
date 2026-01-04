@@ -3,15 +3,18 @@ TigerSharc, MSP430, PIC16F, PIC32MZ.
 
 ![](https://github.com/ubriquejazz/Micros/blob/master/img/Microchip.jpg)
 
-
-
 ## Stmas en Tiempo Real
 
-
+1. Planificiacion
+1. Recursos compartidos
+1. Comunicacion entre procesos
 
 ## Interfaces Web para IOT
 
-
+- B2. Comunicaciones en IoT (12 + 12)
+- B3. uC adaptados para apl distribuidas (3 + 3)
+- B4. Plataformas de procesado en la nube (4 + 2)
+- B5. Proyecto (0 + 7)
 
 ## Introduction to C programmig
 
