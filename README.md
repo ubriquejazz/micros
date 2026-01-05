@@ -5,8 +5,9 @@ TigerSharc, MSP430, PIC16F, PIC32MZ.
 
 ## Stmas en Tiempo Real
 
-1. Planificiacion
-1. Recursos compartidos
+1. Planificiacion.
+1. Impl de algoritmos
+1. Recursos compartidos (mutex)
 1. Comunicacion entre procesos
 
 ## Interfaces Web para IOT
@@ -14,7 +15,7 @@ TigerSharc, MSP430, PIC16F, PIC32MZ.
 - B2. Comunicaciones en IoT (12 + 12)
 - B3. uC adaptados para apl distribuidas (3 + 3)
 - B4. Plataformas de procesado en la nube (4 + 2)
-- B5. Proyecto (0 + 7)
+- B5. [Proyecto](https://github.com/ubriquejazz/ifm_xxx)
 
 ## Introduction to C programmig
 

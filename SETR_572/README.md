@@ -15,7 +15,6 @@ El enfoque de la asignatura será práctico, desarrollando desde el principio un
 
 [prac02](https://github.com/ubriquejazz/common_setr/prac02)
 
-
 ## bloque02
 
 [prac03](https://github.com/ubriquejazz/common_setr/prac03)
@@ -29,12 +28,14 @@ El enfoque de la asignatura será práctico, desarrollando desde el principio un
 - Pr4_II: Sincronizacion con semaforos
 - Pr4_III: Memory pool (Pool_XXX)
 
+### documentation
+
+1. Introduccion a la planificacion (T, C, R)
+1. Impl de planificacion: RR, prioridades y colas, con prioridad fija y desalojo (preemptive)
+1. Exclusion mutua: banderas, mutex
+1. Com entre tareas: con/sin intercambio de datos
+
 ## bloque03
 
-[prac05](https://github.com/ubriquejazz/common_setr/prac05)
-
-- Pr5_I: common_esp32
-- Pr5_II: mailbox
-
-
-
+- Pr5_II: [mailbox](https://github.com/ubriquejazz/common_setr/prac05)
+- Pr5_I: [common_esp32](https://github.com/ubriquejazz/common_eps32)

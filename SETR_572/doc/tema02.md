@@ -1,12 +1,10 @@
-# Planificación. Conceptos básicos e implementación
+# Planificación: implementación
 
-## En que orden se ejecutan las tares?
+## En que orden se ejecutan las tareas?
 
-§ Lo decide el “scheduler” o planificador en base a un algoritmo definido al diseñar el sistema.
-
-§ Un algoritmo de planificación (que determina orden de acceso a recursos).
-
-§ Un método de análisis/predicción del caso peor.
+- Lo decide el “scheduler” en base a un algoritmo definido al diseñar el sistema.
+- Un algoritmo de planificación (que determina orden de acceso a recursos).
+- Un método de análisis/predicción del caso peor.
 
 ## Parametros
 
@@ -19,18 +17,31 @@ Pi– Prioridad asignada al proceso i (si aplica).
 Ui– Utilización que el proceso i hace del microprocesador (= C/T) 
 Ii– Tiempo de interferencia en el proceso i.
 
-    Ci≤ Di=Ti
+    Ci ≤ Di=Ti
+    Objetivo Ri ≤ Di
 
-    Objetivo Ri<=Di
-
-## Planificación cíclica simple, temporizada y planificación cooperativa
+## Planificación cíclica simple, temporizada y cooperativa
 
 ### FIFO
 
-§ Las tareas se ordenan en una cola estática por orden de llegada (FIFO)
+- Las tareas se ordenan en una cola estática por orden de llegada (FIFO)
 
-## Round-Robin
+### Round-Robin (cuestion)
+
+- Asigna a cada tarea un intervalo de tiempo idéntico y las planifica en orden de llegada (cola FIFO). 
+- Asigna a cada tarea un intervalo de tiempo que depende de su plazo de ejecución.
+- Ejecuta las tareas siempre en intervalos regulares.
 
 ## Sistema de prioridades y colas
 
 ## Con prioridad fija y desalojo
+ 
+## Con prioridad dinamica y desalojo (cuestion)
+
+Un planificador con desalojo y prioridades dinámicas de tipo CTS (Computation Time Scheduler), replanifica las prioridades en un deteminado momento:
+
+- Calculando el tiempo que resta para que cada tarea llegue a su deadline y asignando una prioridad inversamente proporcional a ese tiempo.
+
+- Calculando el tiempo de ejecución que resta para cada tarea y asignando una prioridad directamente proporcional a ese tiempo.
+
+- Calculando la diferencia entre el periodo de ejecución de cada tarea y el tiempo que ya lleva cada una ejecutándose y asignando una prioridad inversamente proporcional a esa diferencia.
